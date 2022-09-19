@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="keywords" content="html, course, css, tags" />
+    <meta name="description" content="Это базовый курс по html" />
+    <link rel="stylesheet" href="style.css" />
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="avatar.jpeg" alt="Алексей Абрамов" class="avatar" />
+        <div class="info-text">
+          <h1>Абрамов Алексей Александрович</h1>
+          <p>
+            Я занимаюсь <strong>торговлей</strong> на
+            <strong>маркетплейсах</strong>
+          </p>
+          <p>Люблю <em>спорт, музыку и обожаю свою семью</em></p>
+          <h4>Список социальных сетей:</h4>
+          <a href="https://vk.com/diesel_1983" target="_blank">ВКонтакте</a>
+          |
+          <a href="" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="card bg-green">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Спорт</li>
+          <li>Путешествия</li>
+          <li>Прогулки с семьей</li>
+          <li>Музыка</li>
+          <li>Стихи</li>
+        </ol>
+      </div>
+      <div class="card bg-yellow">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <!-- <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Год</th>
+            </tr>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Омега Брокер</td>
+              <td>Менеджер</td>
+              <td>2012-2017</td>
+            </tr>
+            <tr>
+              <td>Оказание курьерских услуг</td>
+              <td>Курьер</td>
+              <td>2017-2022</td>
+            </tr>
+            <tr>
+              <td>Маркетплейс</td>
+              <td>ИП</td>
+              <td>2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" />
+          </div>
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <!-- <br/> -->
+          <textarea
+            id="message"
+            cols="20"
+            rows="5"
+            placeholder="Введите сообщение..."
+          ></textarea>
+        </div>
+        <input class="btn" type="submit" value="Отправить" />
+      </form>
+    </div>
+  </body>
+</html>
